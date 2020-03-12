@@ -1,0 +1,11 @@
+for sending text everyday you can run this program in background
+and it will send text to specific group or contact named @title
+
+for that you need to autostart this program everytime user login
+add the below lines to the  ".profile" in the home directory
+-- sudo apt gedit .profile
+
+then add
+sleep 10 && nohup bash "location of script.sh" &
+
+main script is : myWebWhatsappScrapper.py
